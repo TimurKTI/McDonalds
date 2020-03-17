@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp1.BurgerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Бургеры" Height="392.6" Width="667.2" Background="LightGoldenrodYellow">
+    <Grid Margin="0,0,-6.2,-6.8">
+        <Image HorizontalAlignment="Left" Height="112" Margin="24,33,0,0" VerticalAlignment="Top" Width="112" Source="Big_Teysti.png" IsEnabled="True" >
+            <Image.Effect>
+                <DropShadowEffect Color="#FFDCCDCD"/>
+            </Image.Effect>
+        </Image>
+        <Label FontSize ="16" Content="Биг Тейсти" HorizontalAlignment="Left" Margin="39,33,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label FontSize ="16" Content="Чизбургер" HorizontalAlignment="Left" Margin="158,33,0,0" VerticalAlignment="Top" Width="86" Height="32"/>
+        <Label FontSize ="16" Content="Роял" HorizontalAlignment="Left" Margin="48,182,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label FontSize ="16" Content="Биг Мак" HorizontalAlignment="Left" Margin="277,33,0,0" VerticalAlignment="Top" Width="86"/>
+        <ListBox Name ="mainBox" HorizontalAlignment="Left" Height="252" Margin="430,66,0,0" VerticalAlignment="Top" Width="210" Background="AntiqueWhite"/>
+        <Label FontSize ="20" Content="Итого" HorizontalAlignment="Left" Margin="440,29,0,0" VerticalAlignment="Top" Width="182"/>
+        <TextBox Text ="0" Name ="TotalPrice" HorizontalAlignment="Left" Height="23" Margin="450,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Background="AntiqueWhite"/>
+        <Label FontSize ="16" Content="Цезарь Ролл" HorizontalAlignment="Left" Margin="150,182,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label FontSize ="16" Content="Филе-О-Фиш" HorizontalAlignment="Left" Margin="258,182,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image HorizontalAlignment="Left" Height="112" Margin="141,33,0,0" VerticalAlignment="Top" Width="112" Source="Big_Teysti.png" IsEnabled="True">
+            <Image.Effect>
+                <DropShadowEffect Color="#FFDCCDCD"/>
+            </Image.Effect>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="112" Margin="258,33,0,0" VerticalAlignment="Top" Width="112" Source="Big_Teysti.png" IsEnabled="True" >
+            <Image.Effect>
+                <DropShadowEffect Color="#FFDCCDCD"/>
+            </Image.Effect>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="112" Margin="24,197,0,0" VerticalAlignment="Top" Width="112" Source="Big_Teysti.png" IsEnabled="True" >
+            <Image.Effect>
+                <DropShadowEffect Color="#FFDCCDCD"/>
+            </Image.Effect>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="112" Margin="141,197,0,0" VerticalAlignment="Top" Width="112" Source="Big_Teysti.png" IsEnabled="True" >
+            <Image.Effect>
+                <DropShadowEffect Color="#FFDCCDCD"/>
+            </Image.Effect>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="112" Margin="258,197,0,0" VerticalAlignment="Top" Width="112" Source="Big_Teysti.png" IsEnabled="True" >
+            <Image.Effect>
+                <DropShadowEffect Color="#FFDCCDCD"/>
+            </Image.Effect>
+        </Image>
+    </Grid>
+</Window>

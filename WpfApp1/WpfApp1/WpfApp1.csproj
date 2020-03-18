@@ -113,20 +113,5 @@
   <ItemGroup>
     <Resource Include="Koka_Kola-0.4.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="cheesewithbacon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Big_Mak.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Royal.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="TSezar-Roll.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="File_o_Fish.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

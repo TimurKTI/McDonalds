@@ -19,7 +19,6 @@ namespace WpfApp1
     /// </summary>
     public partial class BurgerWindow : Window
     {
-        int i = 0;
         public BurgerWindow()
         {
             InitializeComponent();

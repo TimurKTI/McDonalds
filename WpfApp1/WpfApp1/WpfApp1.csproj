@@ -59,6 +59,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DesertWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,6 +73,9 @@
     </Compile>
     <Compile Include="BurgerWindow.xaml.cs">
       <DependentUpon>BurgerWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DesertWindow.xaml.cs">
+      <DependentUpon>DesertWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -112,6 +119,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Koka_Kola-0.4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cheesewithbacon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Big_Mak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Royal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="TSezar-Roll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="File_o_Fish.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

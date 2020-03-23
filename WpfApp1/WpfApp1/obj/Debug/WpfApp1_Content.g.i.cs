@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("koka_kola-0.4.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("file_o_fish.png")]
 
 
